@@ -135,13 +135,13 @@ async def on_message(message):
             await message.channel.send("보고 싶은 마음 ", color=0xfefefe)
             await message.channel.send("호수만 하니", color=0xfefefe)
             await message.channel.send("눈 감을 수 밖에", color=0xfefefe)
-         if randomNum==6:
+        if randomNum==6:
             await message.channel.send("그 꽃", color=0xfefefe)
             await message.channel.send("고은 시인", color=0xfefefe)
             await message.channel.send("===========", color=0xfefefe)
             await message.channel.send("내려갈 때 보았네", color=0xfefefe)
             await message.channel.send("올라갈 때 못 본 그 꽃", color=0xfefefe)
-         if randomNum==7:
+        if randomNum==7:
             await message.channel.send("행복", color=0xfefefe)
             await message.channel.send("나태주 시인", color=0xfefefe)
             await message.channel.send("===========", color=0xfefefe)
@@ -153,7 +153,7 @@ async def on_message(message):
             await message.channel.send("===========", color=0xfefefe)
             await message.channel.send("외로울 때", color=0xfefefe)
             await message.channel.send("혼자서 부를 노래가 있다는 것", color=0xfefefe)
-         if randomNum==8:
+        if randomNum==8:
             await message.channel.send("풀꽃", color=0xfefefe)
             await message.channel.send("나태주 시인", color=0xfefefe)
             await message.channel.send("===========", color=0xfefefe)
@@ -164,7 +164,7 @@ async def on_message(message):
             await message.channel.send("사랑스럽다 ", color=0xfefefe)
             await message.channel.send("===========", color=0xfefefe)
             await message.channel.send("너도 그렇다", color=0xfefefe)
-         if randomNum==9:
+        if randomNum==9:
             await message.channel.send("너 외롭구나")
             await message.channel.send("김형태 시인")
             await message.channel.send("===========")
@@ -179,8 +179,8 @@ async def on_message(message):
             await message.channel.send("===========")
             await message.channel.send("그대 생각을  ")
             await message.channel.send("켜 놓은 채 ")
-            await message.channel.send("잠이 들었습니다")
-        
+            await message.channel.send("잠이 들었습니다")        
+
 
         
         
