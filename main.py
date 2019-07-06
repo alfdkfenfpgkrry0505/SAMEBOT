@@ -50,6 +50,8 @@ async def on_message(message):
     if message.content.startswith("?패치노트"):
         embed = discord.Embed(title="2019.07.06.토요일  ", description="1.0.0 개발 시작!", color=0xffaaaa)
         await message.channel.send(embed=embed)
+        embed = discord.Embed(title="1.0.1  ", description="2019.07.06.토요일, 랜덤으로 쌔임이 시 한편을 읊어줍니다.", color=0xffaaaa)
+        await message.channel.send(embed=embed)
     if message.content.startswith("?배돌이"):
         await message.channel.send("!안녕")
     if message.content.startswith("?오늘의시한편"):
