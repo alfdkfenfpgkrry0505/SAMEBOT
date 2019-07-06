@@ -18,7 +18,6 @@ async def on_ready():
         
 @app.event
 async def on_message(message):
-
     if message.content.startswith("?도와줘"):
         embed = discord.Embed(title="  ", description=" 안녕? 난 쌔임이야. 아래는 명령어 목록이야.", color=0xff0000)
         await message.channel.send(embed=embed)
@@ -43,20 +42,17 @@ async def on_message(message):
         embed = discord.Embed(title="뭐 도움받고 싶은 것이 있다면 ?도와줘를 대화창에다 입력해봐.   ", description="", color=0xffaaaa)
         await message.channel.send(embed=embed)
         
-     if message.content.startswith("?안녕"):
+    if message.content.startswith("?안녕"):
         msg = "{0.author.mention} 안녕? 반갑다.".format(message)
         await message.channel.send( msg)
         
-     if message.content.startswith("?패치노트"):
+    if message.content.startswith("?패치노트"):
         embed = discord.Embed(title="2019.07.06.토요일  ", description="1.0.0 개발 시작!", color=0xffaaaa)
         await message.channel.send(embed=embed)
         
         
 
         
-
-
-
 
 
 accross_token = os.environ["BOT_TOKEN"]
