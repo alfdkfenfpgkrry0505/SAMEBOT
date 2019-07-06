@@ -31,11 +31,11 @@ async def on_message(message):
         await message.channel.send(embed=embed)
         
     if message.content.startswith("?자기소개"):
-        embed = discord.Embed(title="안녕? 난 쌔임이야.  ", description="", color=0xffaaaa)
+        embed = discord.Embed(title="안녕? 난 쌔임[SAME]이야.  ", description="", color=0xffaaaa)
         await message.channel.send(embed=embed)
         embed = discord.Embed(title="내 이름은   ", description="", color=0xffaaaa)
         await message.channel.send(embed=embed)
-        embed = discord.Embed(title="[Special gift are made by effort.]  ", description="", color=0xffaaaa)
+        embed = discord.Embed(title="SPECIAL GIFT ARE MADE BY EFFORT.  ", description="", color=0xffaaaa)
         await message.channel.send(embed=embed)
         embed = discord.Embed(title="[특별한 재능은 노력으로 만들어진다.] 라는 의미를 가진 약자야.   ", description="", color=0xffaaaa)
         await message.channel.send(embed=embed)
